@@ -1,0 +1,221 @@
+
+body{
+	text-align: center;	
+	height: auto;
+	background-color: #E6F6FC;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	
+}
+
+header{
+	margin-top: 50px;
+}
+header img{
+	width: 90px;
+	height: 60px;
+}
+
+#twitchStreamers{
+	min-width: 100%;
+	align-items: center;
+	margin-top: 25px;
+	margin-bottom: 20px;
+}
+
+.buttons{
+	display: inline-block;	
+}
+button{
+	width: 100px;
+	text-align: center;
+	margin-right: 20px;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2), 0 2px 5px 0 rgba(0,0,0,0.19);
+
+}
+.channel img{
+	width: 55px;
+	height: 55px;
+	border-radius: 50%;
+	border: 2px solid #ffffff;	
+}
+
+section{	
+	display: inline-block;	
+	min-width: 100%;
+	margin-bottom: 200px;
+}
+#channels{
+	display: inline-block;
+	min-width: 100%;
+}
+
+.channel{
+	background-color: #FFF1B0;
+	border: 1px solid #000;
+	width: 850px;
+	height: 100px;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;	
+	align-items: center;
+	justify-content: space-between;	
+	padding: 20px 10px;
+	margin-bottom: 5px;	
+}
+span.inner1{	
+	min-width: 130px;	
+}
+span.inner2{	
+	min-width: 170px;
+	margin-left: 20px;
+	overflow-x: hidden;
+	padding-top: 8px;	/* to vertically align this with it's next element*/
+}
+
+span.inner3{
+	display: flex;
+	width: 100%;
+	align-items: center;	
+	margin-left: 35px;
+}
+
+.divLive .inner3{
+	justify-content: space-between;
+}
+.divOffline .inner3{
+	justify-content: space-evenly;
+}
+
+.statusLength{
+	white-space: nowrap; 
+    width: 300px;
+    margin-bottom: 0px; /*To avoid text getting cropped vertically.*/   
+    overflow: hidden;    
+    text-overflow: ellipsis;
+    height: 30px;
+}
+
+.divLive a:hover{
+	color: #0000FF;
+}
+
+.iconText em{
+	font-size: 1.4em;
+	margin-left: 4px;
+}
+
+.fa-rss{	
+	color: #008000;
+	text-shadow: 1px 1px 1px #ccc;
+}
+.fa-minus-circle{
+	color: #FF0000;
+	text-shadow: 1px 1px 1px #ccc;
+}
+
+
+/*----------------Media Queries------------------*/
+@media (max-width: 992px){
+
+	.channel{	
+		width: 700px;
+		height: 100px;
+	}
+
+	.statusLength{
+		display: none;
+	}
+
+	.divLive .inner3{
+		flex-direction: column;
+	}
+}
+
+@media (max-width: 768px){
+	.channel{
+		width: 600px;
+		height: 90px;
+	}
+}
+
+@media (max-width: 625px){
+	.channel{
+		width: 100%;
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+
+	span.inner1{
+		min-width: 90px;
+	}
+	span.inner2{
+		min-width: 33%;
+		margin-left: 10px;
+	}
+	span.inner3{
+		width: 100px;
+	}
+
+	h4{
+		font-size: 1.2em;
+	}
+
+	.buttons{
+		width: 100%;
+	}
+	button{
+		display: block;
+		width: 100%;
+	}
+
+	.iconText em{
+		font-size: 1.2em;
+	}
+}
+
+@media (max-width: 400px){
+	
+	h4{
+		font-size: 1em;
+	}
+	h3{
+		font-size: 1.5em;
+	}
+	h2{
+		font-size: 1.7em;
+	}
+
+	.channel-url{
+		font-size: .9em;
+	}
+}
+
+@media (max-width: 375px){
+	#channels{
+		width: 100%;
+	}
+	h4{
+		font-size: .8em;
+	}
+	.channel-url{
+		font-size: .7em;
+	}
+	span.inner1{
+		min-width: 75px;
+	}
+	span.inner2{
+		margin-left: 10px;
+	}
+	span.inner3{
+		max-width: 70px;
+		margin-left: 10px;
+	}
+
+	.iconText em{
+		font-size: .9em;
+	}
+}
+
+
+
+
