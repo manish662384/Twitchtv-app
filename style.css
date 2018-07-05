@@ -95,8 +95,11 @@ span.inner3{
     height: 30px;
 }
 
+.divLive a{
+	color: #257CD9;
+}
 .divLive a:hover{
-	color: #0000FF;
+	color: #257CD9;
 }
 
 .iconText em{
