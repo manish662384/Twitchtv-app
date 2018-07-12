@@ -132,6 +132,9 @@ span.inner3{
 	.divLive .inner3{
 		flex-direction: column;
 	}
+	.divOffline .inner3{
+		flex-direction: column;
+	}
 }
 
 @media (max-width: 768px){
