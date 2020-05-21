@@ -139,3 +139,4 @@ function loadAllChannels(){
 		channel[i].style.display = "flex";
 	}	
 }
+
