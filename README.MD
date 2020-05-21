@@ -13,6 +13,7 @@ Features:
 4.	Completely responsive across all platforms such as tab/mobile
 
 Technologies:
+
 Javascript(ES6), HTML, CSS, AJAX, JSON, CSS3 Flexbox(layout model), CSS3 Media-Queries
 
 Libraries:
