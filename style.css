@@ -12,18 +12,19 @@ header{
 }
 header img{
 	width: 90px;
-	height: 60px;
+	height: 90px;
 }
 
 #twitchStreamers{
 	min-width: 100%;
 	align-items: center;
-	margin-top: 25px;
+	/*margin-top: 25px;*/
 	margin-bottom: 20px;
 }
 
 .buttons{
-	display: inline-block;	
+	display: inline-block;
+	margin-top: 25px;	
 }
 button{
 	width: 100px;
